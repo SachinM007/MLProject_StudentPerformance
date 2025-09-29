@@ -26,6 +26,6 @@ setup(
     version='0.0.1',
     author='Sachin',
     author_email='bsachinmiryala@gmail.com',
-    packages=find_packages() , #checks all files having constructor(init.py) and considers them as packages and builds them, once they are build we can use them to import
-    install_requires=get_requirements('requirements.txt')
+    packages=find_packages()  #checks all files having constructor(init.py) and considers them as packages and builds them, once they are build we can use them to import
+    # install_requires=get_requirements('requirements.txt')
 ) 
